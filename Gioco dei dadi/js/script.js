@@ -17,6 +17,8 @@ alert('È uscito ' + dadoGiocatore2);
 
 if(dadoGiocatore1 > dadoGiocatore2){
     alert('Ha vinto il giocatore 1');
-}else{
+}else if(dadoGiocatore1 < dadoGiocatore2){
     alert('Ha vinto il giocatore 2');
+}else{
+    alert('Pareggio')
 }
