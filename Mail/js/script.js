@@ -8,7 +8,7 @@
 const myArray = ['matteo@gmail.com', 'luca@gmail.com', 'marco@gmail.com', 'giovanni@gmail.com'];
 
 // Doamanda email
-let mail = (prompt('Inserire la mail per il controllo.\nGrazie'));
+let mail = prompt('Inserire la mail per il controllo.\nGrazie');
 
 let mail_trovata = false;
 
